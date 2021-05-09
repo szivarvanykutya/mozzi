@@ -34,7 +34,7 @@ void updateControl(){
   // put changing controls in here
   
   int sensor_val = mozziAnalogRead(INPUT_PIN);
-  kFreq= map(sensor_val,0,1023,1,64);
+  kFreq= map(sensor_val,0,1023,0,10);
   kSin.setFreq(kFreq);
   volume=(kSin.next()>>2)+127;
   
