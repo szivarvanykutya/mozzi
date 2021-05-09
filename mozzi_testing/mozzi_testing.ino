@@ -1,19 +1,6 @@
-/*  Example playing a sinewave at a set frequency,
-    using Mozzi sonification library.
-
-    Demonstrates the use of Oscil to play a wavetable.
-
-    Circuit: Audio output on digital pin 9 on a Uno or similar, or
-    DAC/A14 on Teensy 3.1, or
-    check the README or http://sensorium.github.io/Mozzi/
-
-    Mozzi documentation/API
-		https://sensorium.github.io/Mozzi/doc/html/index.html
-
-		Mozzi help/discussion/announcements:
-    https://groups.google.com/forum/#!forum/mozzi-users
-
-    Tim Barrass 2012, CC by-nc-sa.
+/*  
+ *   Mozzi testing file
+ *   
 */
 
 #include <MozziGuts.h>
