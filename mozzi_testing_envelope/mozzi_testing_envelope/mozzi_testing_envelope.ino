@@ -22,7 +22,7 @@ void setup() {
 void updateControl(){
 if (kDelay.ready()) {
 unsigned int duration = 1800;
-unsigned int attack = 10;
+unsigned int attack = 120;
 unsigned int decay = duration - attack;
 kEnvelope.start(attack,decay);
 kDelay.start(duration+500);
